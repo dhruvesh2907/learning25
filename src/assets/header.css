@@ -1,0 +1,9 @@
+.header{
+    margin-top: 0;
+    top: 0% ;
+    position: absolute;
+    text-align: center;
+    background-color: chocolate;
+    width: 100%;
+    height: 100px;
+}
