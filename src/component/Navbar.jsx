@@ -52,6 +52,16 @@ export default function Navbar() {
               search movie
               </Link>
             </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/postapidemo1">
+              POST API DEMO 1
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/postapidemo2">
+                POST API DEMO 2
+              </Link>
+            </li>
       
       
     </ul>

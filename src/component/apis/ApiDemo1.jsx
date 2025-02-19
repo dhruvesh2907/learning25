@@ -36,6 +36,11 @@ export const ApiDemo1 = () => {
                 <td>{user.age}</td>
                 <td>{user._id}</td>
                 <td>{user.email}</td>
+                <td>
+                                {
+                                    user.isActive == true ? "Active" : "Not active"
+                                }
+                            </td>
 
           </tr>
             

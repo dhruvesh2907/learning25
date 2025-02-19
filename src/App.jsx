@@ -34,6 +34,8 @@ import { ApiDemo1 } from './component/apis/ApiDemo1'
 import { SearchMovie } from './component/apis/omdb/SearchMovie'
 import { MovieDetail } from './component/apis/omdb/MovieDetail'
 //import LoginSignUp from './component/LoginSignUp/LoginSignUp'
+import { PostApiDemo1 } from './component/apis/PostApiDemo1'
+import { PostApiDemo2 } from './component/apis/PostApiDemo2'
 
 
 function App() {
@@ -58,6 +60,8 @@ function App() {
             <Route path="/apidemo1" element ={<ApiDemo1/>}></Route>
             <Route path='/searchmovie' element = {<SearchMovie/>}></Route>
         <Route path ="/moviedetail/:id" element ={<MovieDetail/>}></Route>
+        <Route path ="/postapidemo1" element ={<PostApiDemo1/>}></Route>
+        <Route path ="/postapidemo2" element ={<PostApiDemo2/>}></Route>
           </Routes> 
           {/* <LoginSignUp /> */}
           
