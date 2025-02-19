@@ -42,6 +42,16 @@ export default function Navbar() {
       <li class="nav-item">
         <Link class="nav-link" to="/formdemo8">Form8</Link>
       </li>
+      <li class="nav-item">
+              <Link class="nav-link" to="/apidemo1">
+              apidemo1
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/searchmovie">
+              search movie
+              </Link>
+            </li>
       
       
     </ul>
