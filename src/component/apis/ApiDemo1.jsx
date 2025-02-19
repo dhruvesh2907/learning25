@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import axios from "axios";
 export const ApiDemo1 = () => {
     const [message, setmessage] = useState("")
@@ -11,13 +11,17 @@ export const ApiDemo1 = () => {
     console.log(res.data.message)
     setmessage(res.data.message)
     setusers(res.data.data)
-
+    
   };
+  useEffect(()=>{
+    getUserData()
+},[])
+ 
 
   return (
     <div style={{ textAlign: "center",background:"white" }}>
       <h1>API DEMO 1</h1>
-      <button onClick={()=>{getUserData()}}>GET</button>
+      {/* <button onClick={()=>{getUserData()}}>GET</button> */}
       {message}
       <div style={{ color: "black" }}>
       <table class="table table-dark">
